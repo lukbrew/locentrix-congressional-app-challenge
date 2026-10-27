@@ -1,0 +1,36 @@
+WEB PAGES (GET):
+    / - Blank home page
+    /terms - Blank terms page
+
+
+API METHODS:
+
+    Checks:
+
+        GET requests:
+            /api/status/appversion - Latest version of the app
+            /api/status - Status of server check
+            /api/message - Update or intro message to be displayed to users.
+            /api/message/terms - Blank terms page
+            /api/status/version - Version of the API
+        POST requests:
+            /api/message/update - Alert message depending on installed app's version.
+            /api/user/status/isblocked - Check if a user is blocked.
+            /api/user/status/iscookievalid - Check if a user's cookie is valid.
+            /api/user/status/userexists - Check if a user exists with the given email address.
+            /api/user/status/karma - Get the karma (internal name for points meant as a reward) for a user.
+
+    User management (POST):
+        /api/user/addition/register - Register a new user or sign-in with the given email address.
+        /api/user/addition/verify - Verify a user's email address or sign-in a user.
+        /api/user/removal/usrremove - Begin user deletion process.
+        /api/user/removal/usrremoveverify - Verify user deletion.
+
+    Pins (POST):
+        Pin management:
+            /api/pin/reporting/pin - Save a pin to the db or update its reports counter if it already exists.
+            /api/pin/reporting/pindelete - Decrement the reports counter for a pin.
+        Pin retrieval:
+            /api/pin/retrieval/pinrequest - Get all pins above a certain threshold of reports from the db.
+            /api/pin/retrieval/pinold - Get all pins that will be deleted from the db within the next 10s.
+            /api/pin/retrieval/pinnew - Get all pins that crossed the threshold of reports from the db in the last 10s.

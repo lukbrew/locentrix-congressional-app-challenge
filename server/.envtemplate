@@ -1,0 +1,5 @@
+FLASK_DATABASE_URL="mongodb+srv://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+FLASK_EMAIL_ADDRESS="xx@xxx.xxx"
+FLASK_EMAIL_PASS="xxxxxxxxxxxxxxxxxx"
+FLASK_SMTP_PORT=xxx
+FLASK_SMTP_SERVER="xxx.xx.xxx"
