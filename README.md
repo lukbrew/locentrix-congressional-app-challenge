@@ -1,6 +1,6 @@
 # Locentrix
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LKR7nXsLgR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Watch the Locentrix demo](https://www.youtube.com/watch?v=LKR7nXsLgR4)
 
 Locentrix improves driver safety by warning drivers of potentially dangerous road conditions and assisting them in navigating around these areas. Other users report conditions they come across, and those reports are combined to locate areas with dangerous road conditions, warn nearby drivers about them, and provide navigation directions to other users to allow them to avoid these areas in the first place.
 
