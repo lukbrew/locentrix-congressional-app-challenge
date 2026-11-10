@@ -1,5 +1,9 @@
 # Locentrix
 
+[![Watch the demo video](https://www.youtube.com/watch?v=LKR7nXsLgR4)](https://www.youtube.com/watch?v=LKR7nXsLgR4)
+
+https://www.youtube.com/watch?v=LKR7nXsLgR4
+
 Locentrix improves driver safety by warning drivers of potentially dangerous road conditions and assisting them in navigating around these areas. Other users report conditions they come across, and those reports are combined to locate areas with dangerous road conditions, warn nearby drivers about them, and provide navigation directions to other users to allow them to avoid these areas in the first place.
 
 Locentrix has many safety features to prevent misuse of the service. Each user has a hidden "trust score" that assists the server in determining how much a user's actions should be taken into account. As a user submits reports that other users agree with, their trust score increases. If their reports conflict with the available information, their trust score decreases proportionally. Account age is also taken into account in these calculations, with the account becoming more trustworthy over time. If the user's trust score drops below zero, their reports are ignored, until their score improves.
